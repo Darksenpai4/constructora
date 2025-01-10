@@ -20,4 +20,26 @@ class Obrero {
     public Maquina getMaquina() {
         return tipoDeMaquina;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setSalario(int salario) {
+        this.salario = salario;
+    }
+
+    public void setMaquina(Maquina maquina) {
+        tipoDeMaquina = maquina;
+    }
+
+    public String getDetails() {
+        return "Nombre: " + nombre + " Salario: " + salario + " Tipo de maquina:: " + tipoDeMaquina;
+
+    }
+
+    public void printDetails() {
+        System.out.println("Nombre: " + nombre + " | Salario: " + salario + " | Máquina usada: " + tipoDeMaquina);
+    }
+
 }
