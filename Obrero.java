@@ -34,12 +34,12 @@ class Obrero {
     }
 
     public String getDetails() {
-        return "Nombre: " + nombre + " Salario: " + salario + " Tipo de maquina:: " + tipoDeMaquina;
+        return "Nombre: " + nombre + " Salario: " + salario + " Tipo de maquina:: " + tipoDeMaquina.getNombre();
 
     }
 
     public void printDetails() {
-        System.out.println("Nombre: " + nombre + " | Salario: " + salario + " | Máquina usada: " + tipoDeMaquina);
+        System.out.println("Nombre: " + nombre + " | Salario: " + salario + " | Máquina usada: " + tipoDeMaquina.getNombre());
     }
 
 }
